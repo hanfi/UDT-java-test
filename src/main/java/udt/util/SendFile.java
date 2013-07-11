@@ -177,7 +177,7 @@ public class SendFile extends Application{
 						copyFile(file,out);
 					}else{
 						fis=new FileInputStream(file);
-						Util.copy(fis, out, size, false);
+						Util.copy(fis, out, size, true);
 					}
 					System.out.println("[SendFile] Finished sending data.");
 					long end=System.currentTimeMillis();
