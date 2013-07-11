@@ -47,7 +47,7 @@ INST=${INST:-.}
 JAVA=java
 
 #location of udt.jar
-CP=$INST/lib/udt*.jar
+CP=$INST/target/udt*.jar
 
 #memory for the VM
 MEM=-Xmx128m
