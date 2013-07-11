@@ -130,7 +130,7 @@ public class SendFile extends Application{
 		public RequestRunner(UDTSocket socket){
 			this.socket=socket;
 			format.setMaximumFractionDigits(3);
-			memMapped=false;//true;
+			memMapped=true;//true;
 		}
 
 		public void run(){
