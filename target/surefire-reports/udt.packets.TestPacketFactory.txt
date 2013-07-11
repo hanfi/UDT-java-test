@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: udt.packets.TestPacketFactory
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.023 sec <<< FAILURE!
+testData(udt.packets.TestPacketFactory)  Time elapsed: 0.009 sec  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at udt.packets.DataPacket.getEncoded(DataPacket.java:137)
+	at udt.packets.TestPacketFactory.testData(TestPacketFactory.java:26)
+

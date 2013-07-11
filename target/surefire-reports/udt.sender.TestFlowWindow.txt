@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: udt.sender.TestFlowWindow
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.022 sec <<< FAILURE!
+testFillWindow(udt.sender.TestFlowWindow)  Time elapsed: 0.004 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertNotNull(Assert.java:220)
+	at junit.framework.Assert.assertNotNull(Assert.java:213)
+	at udt.sender.TestFlowWindow.testFillWindow(TestFlowWindow.java:20)
+
+testOverflow(udt.sender.TestFlowWindow)  Time elapsed: 0.001 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertNotNull(Assert.java:220)
+	at junit.framework.Assert.assertNotNull(Assert.java:213)
+	at udt.sender.TestFlowWindow.testOverflow(TestFlowWindow.java:51)
+

@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: udt.TestUDTServerSocket
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.996 sec <<< FAILURE!
+testLargeDataSet(udt.TestUDTServerSocket)  Time elapsed: 1.093 sec  <<< ERROR!
+java.lang.OutOfMemoryError: Java heap space
+	at udt.TestUDTServerSocket.doTest(TestUDTServerSocket.java:55)
+	at udt.TestUDTServerSocket.testLargeDataSet(TestUDTServerSocket.java:46)
+
